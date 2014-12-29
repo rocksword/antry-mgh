@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+
+h2 span {
+    text-align: right;
+    float: right;
+    font-size: 14px;
+    color: #888;
+    text-shadow: 0px 0px 0px #ccc !important;
+    margin-right: 15px;
+}
+
+.front-icons {
+    height: 100px;
+    border: 1px solid #d6d6d6;
+    background: #eee !important;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+.wrapLoader {
+    width: 100%;
+    margin: 0px;
+    height: 100%;
+    position: absolute;
+    background-color: #eee;
+    opacity: 0.95;
+    z-index: 1000;
+    display: none;
+}
+
+.imgLoader {
+    margin: 0px auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+div.feature-box div.feature-box-icon, .btn-primary, .pagination>.active>a, .col-md-3 .course-box, header nav ul.nav-main ul.dropdown-menu,
+    nav.mega-menu .mega-menu-signin .dropdown-menu li, footer div.footer-ribon, div.footer-copyright, li.heading, header nav ul.nav-main li.dropdown:hover a
+    {
+    background-color: #316441 !important;
+}
+
+.selected-reading-boxes .col-md-3 .course-box {
+    background-color: transparent !important;
+}
+
+img.mobile-apps {
+    border: 1px solid #316441 !important;
+}
+
+footer ul.list li {
+    background: none !important;
+    padding: 0px;
+}
+
+p a, footer i.icon, footer ul.list.icons li i, div.home-intro p em {
+    color: #316441 !important;
+}

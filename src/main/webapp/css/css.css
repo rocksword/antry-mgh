@@ -62,3 +62,155 @@ h1, h2, h3 {
     left: 510px;
     width: 200px;
 }
+
+/** HyperLink */
+a:link {
+    color: #000000
+}
+
+a:visited {
+    color: #006600
+}
+
+a:hover {
+    color: #FFCC00
+}
+
+a:active {
+    color: #FF00CC
+}
+
+/** Table */
+table.one {
+    border-collapse: collapse;
+}
+
+table.two {
+    border-collapse: separate;
+}
+
+td.a {
+    border-style: dotted;
+    border-width: 3px;
+    border-color: #000000;
+    padding: 10px;
+}
+
+td.b {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #333333;
+    padding: 10px;
+}
+
+table.three {
+    border-collapse: separate;
+    width: 400px;
+    border-spacing: 10px;
+}
+
+table.four {
+    border-collapse: separate;
+    width: 400px;
+    border-spacing: 10px 30px;
+}
+
+/** Caption */
+caption.top {
+    caption-side: top
+}
+
+caption.bottom {
+    caption-side: bottom
+}
+
+caption.left {
+    caption-side: left
+}
+
+caption.right {
+    caption-side: right
+}
+
+/** Empty table cell */
+table.empty {
+    width: 350px;
+    border-collapse: separate;
+    empty-cells: hide;
+}
+
+td.empty {
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #999999;
+}
+
+/** Table layout */
+table.auto {
+    table-layout: auto
+}
+
+table.fixed {
+    table-layout: fixed
+}
+/** CSS border */
+p.example1 {
+    border: 1px solid;
+    border-bottom-color: #009900; /* Green */
+    border-top-color: #FF0000; /* Red */
+    border-left-color: #330000; /* Black */
+    border-right-color: #0000CC; /* Blue */
+}
+
+p.example2 {
+    border: 1px solid;
+    border-color: #009900; /* Green */
+}
+
+/** Scrollbars */
+.scroll {
+    display: block;
+    border: 1px solid red;
+    padding: 5px;
+    margin-top: 5px;
+    width: 200px;
+    height: 50px;
+    overflow: scroll;
+}
+
+.auto {
+    display: block;
+    border: 1px solid red;
+    padding: 5px;
+    margin-top: 5px;
+    width: 200px;
+    height: 50px;
+    overflow: auto;
+}
+
+/** pseudo classes */
+div>p:first-child {
+    text-indent: 25px;
+}
+
+p:first-line {
+    text-decoration: underline;
+}
+
+p.noline:first-line {
+    text-decoration: none;
+}
+
+p:first-letter {
+    font-size: 3em;
+    text-color: red;
+}
+
+p.normal:first-letter {
+    font-size: 10px;
+}
+
+div {
+    display: block;
+}

@@ -5,7 +5,12 @@
 <link href="css/css.css" rel="stylesheet" type="text/css" media="all">
 <title>Insert title here</title>
 </head>
+<!-- Tutorial come from -->
+<!-- http://www.tutorialspoint.com/css/index.htm -->
+<!--  -->
 <body>
+     <div>This is DIV section.</div>
+
      <h1>This is H1.</h1>
      <h1 class="green">This is green H1.</h1>
 
@@ -125,5 +130,475 @@
 
      <p style="background-image: url(img/pattern1.gif); background-attachment: scroll;">This parapgraph has
           scrolling background image.</p>
+
+     <p style="font-family: georgia, garamond, serif;">This text is rendered in either georgia, garamond, or the
+          default serif font depending on which font you have at your system.</p>
+
+     <p style="font-style: italic;">This text will be rendered in italic style</p>
+
+     <p style="font-variant: small-caps;">This text will be rendered as small caps</p>
+
+     <p style="font-weight: bold;">This font is bold.</p>
+     <p style="font-weight: bolder;">This font is bolder.</p>
+     <p style="font-weight: 900;">This font is 900 weight.</p>
+
+     <p style="font-size: 20px;">This font size is 20 pixels</p>
+     <p style="font-size: small;">This font size is small</p>
+     <p style="font-size: large;">This font size is large</p>
+
+     <p style="font-size-adjust: 0.61;">This text is using a font-size-adjust value.</p>
+
+     <p style="font-stretch: ultra-expanded;">If this doesn't appear to work, it is likely that your computer
+          doesn't have a condensed or expanded version of the font being used.</p>
+
+     <p style="font: italic small-caps bold 15px georgia;">Applying all the properties on the text at once.</p>
+
+     <p style="color: red;">This text will be written in red.</p>
+
+     <p style="direction: rtl;">This text will be renedered from right to left</p>
+
+     <p style="letter-spacing: 5px;">This text is having space between letters.</p>
+
+     <p style="word-spacing: 5px;">This text is having space between words.</p>
+
+     <p style="text-indent: 1cm;">This text will have first line indented by 1cm and this line will remain at its
+          actual position this is done by CSS text-indent property.</p>
+
+     <p style="text-align: right;">This will be right aligned.</p>
+     <p style="text-align: center;">This will be center aligned.</p>
+     <p style="text-align: left;">This will be left aligned.</p>
+
+     <p style="text-decoration: underline;">This will be underlined</p>
+     <p style="text-decoration: line-through;">This will be striked through.</p>
+     <p style="text-decoration: overline;">This will have a over line.</p>
+     <p style="text-decoration: blink;">This text will have blinking effect</p>
+
+     <p style="text-transform: capitalize;">This will be capitalized</p>
+     <p style="text-transform: uppercase;">This will be in uppercase</p>
+     <p style="text-transform: lowercase;">This will be in lowercase</p>
+     Pre text:
+     <p style="white-space: pre;">This text has a line break and the white-space pre setting tells the browser to
+          honor it just like the HTML pre tag.</p>
+
+     <p style="text-shadow: 4px 4px 8px blue;">If your browser supports the CSS text-shadow property, this text will
+          have a blue shadow.</p>
+
+     <img style="border: 0px;" src="/images/css.gif" />
+     <br />
+     <img style="border: 3px dashed red;" src="/images/css.gif" />
+     <br />
+     <img style="border: 1px solid red; height: 100px;" src="/images/css.gif" />
+     <br />
+     <img style="border: 1px solid red; height: 10%;" src="/images/css.gif" />
+     <br />
+     <img style="border: 1px solid red; width: 100px;" src="/images/css.gif" />
+     <br />
+     <img style="border: 1px solid red; width: 5%;" src="/images/css.gif" />
+     <br />
+     <img style="border: 1px solid red; -moz-opacity: 0.1; filter: alpha(opacity = 40);" src="/images/css.gif" />
+     <br />
+     <a href="/css.html">Black Link</a>
+     <a href="/css.html">Click this link</a>
+     <br />
+     <br />
+     <table class="one">
+          <caption>Collapse Border Example</caption>
+          <tr>
+               <td class="a">Cell A Collapse Example</td>
+          </tr>
+          <tr>
+               <td class="b">Cell B Collapse Example</td>
+          </tr>
+     </table>
+     <br />
+     <table class="two">
+          <caption>Separate Border Example</caption>
+          <tr>
+               <td class="a">Cell A Separate Example</td>
+          </tr>
+          <tr>
+               <td class="b">Cell B Separate Example</td>
+          </tr>
+     </table>
+
+     <table class="three" border="1">
+          <caption>Separate Border Example with border-spacing</caption>
+          <tr>
+               <td>Cell A Collapse Example</td>
+          </tr>
+          <tr>
+               <td>Cell B Collapse Example</td>
+          </tr>
+     </table>
+     <br />
+     <table class="four" border="1">
+          <caption>Separate Border Example with border-spacing</caption>
+          <tr>
+               <td>Cell A Separate Example</td>
+          </tr>
+          <tr>
+               <td>Cell B Separate Example</td>
+          </tr>
+     </table>
+
+
+     <table style="width: 400px; border: 1px solid black;">
+          <caption class="top">This caption will appear at the top</caption>
+          <tr>
+               <td>Cell A</td>
+          </tr>
+          <tr>
+               <td>Cell B</td>
+          </tr>
+     </table>
+     <br />
+     <table style="width: 400px; border: 1px solid black;">
+          <caption class="bottom">This caption will appear at the bottom</caption>
+          <tr>
+               <td>Cell A</td>
+          </tr>
+          <tr>
+               <td>Cell B</td>
+          </tr>
+     </table>
+     <br />
+     <table style="width: 400px; border: 1px solid black;">
+          <caption class="left">This caption will appear at the left</caption>
+          <tr>
+               <td>Cell A</td>
+          </tr>
+          <tr>
+               <td>Cell B</td>
+          </tr>
+     </table>
+     <br />
+     <table style="width: 400px; border: 1px solid black;">
+          <caption class="right">This caption will appear at the right</caption>
+          <tr>
+               <td>Cell A</td>
+          </tr>
+          <tr>
+               <td>Cell B</td>
+          </tr>
+     </table>
+
+     <table class="empty">
+          <tr>
+               <th></th>
+               <th>Title one</th>
+               <th>Title two</th>
+          </tr>
+          <tr>
+               <th>Row Title</th>
+               <td class="empty">value</td>
+               <td class="empty">value</td>
+          </tr>
+          <tr>
+               <th>Row Title</th>
+               <td class="empty">value</td>
+               <td class="empty"></td>
+          </tr>
+     </table>
+
+     <table class="auto" border="1">
+          <tr>
+               <td width="20%">1000000000000000000000000000</td>
+               <td width="40%">10000000</td>
+               <td width="40%">100</td>
+          </tr>
+     </table>
+     <br />
+     <table class="fixed" border="1">
+          <tr>
+               <td width="20%">1000000000000000000000000000</td>
+               <td width="40%">10000000</td>
+               <td width="40%">100</td>
+          </tr>
+     </table>
+
+     <p class="example1">This example is showing all borders in different colors.</p>
+     <p class="example2">This example is showing all borders in green color only.</p>
+
+     <p style="border-width: 4px; border-style: none;">This is a border with none width.</p>
+     <p style="border-width: 4px; border-style: solid;">This is a solid border.</p>
+     <p style="border-width: 4px; border-style: dashed;">This is a dahsed border.</p>
+     <p style="border-width: 4px; border-style: double;">This is a double border.</p>
+     <p style="border-width: 4px; border-style: groove;">This is a groove border.</p>
+     <p style="border-width: 4px; border-style: ridge">This is aridge border.</p>
+     <p style="border-width: 4px; border-style: inset;">This is a inset border.</p>
+     <p style="border-width: 4px; border-style: outset;">This is a outset border.</p>
+     <p style="border-width: 4px; border-style: hidden;">This is a hidden border.</p>
+     <p
+          style="border-width: 4px; border-top-style: solid; border-bottom-style: dashed; border-left-style: groove; border-right-style: double;">
+          This is a a border with four different styles.</p>
+
+     <p style="border-width: 4px; border-style: solid;">This is a solid border whose width is 4px.</p>
+     <p style="border-width: 4pt; border-style: solid;">This is a solid border whose width is 4pt.</p>
+     <p style="border-width: thin; border-style: solid;">This is a solid border whose width is thin.</p>
+     <p style="border-width: medium; border-style: solid;">This is a solid border whose width is medium;</p>
+     <p style="border-width: thick; border-style: solid;">This is a solid border whose width is thick.</p>
+     <p
+          style="border-bottom-width: 4px; border-top-width: 10px; border-left-width: 2px; border-right-width: 15px; border-style: solid;">
+          This is a a border with four different width.</p>
+
+     <p style="border: 4px solid red;">This example is showing shorthand property for border.</p>
+
+
+     <p style="margin: 15px; border: 1px solid black;">all four margins will be 15px</p>
+     <p style="margin: 10px 2%; border: 1px solid black;">top and bottom margin will be 10px, left and right margin
+          will be 2% of the total width of the document.</p>
+     <p style="margin: 10px 2% -10px; border: 1px solid black;">top margin will be 10px, left and right margin will
+          be 2% of the total width of the document, bottom margin will be -10px</p>
+     <p style="margin: 10px 2% -10px auto; border: 1px solid black;">top margin will be 10px, right margin will be
+          2% of the total width of the document, bottom margin will be -10px, left margin will be set by the browser</p>
+
+     <p style="margin-bottom: 15px; border: 1px solid black;">This is a paragraph with a specified bottom margin</p>
+     <p style="margin-bottom: 5%; border: 1px solid black;">This is another paragraph with a specified bottom margin
+          in percent</p>
+
+     <p style="margin-top: 15px; border: 1px solid black;">This is a paragraph with a specified top margin</p>
+     <p style="margin-top: 5%; border: 1px solid black;">This is another paragraph with a specified top margin in
+          percent</p>
+
+     <p style="margin-left: 15px; border: 1px solid black;">This is a paragraph with a specified left margin</p>
+     <p style="margin-left: 5%; border: 1px solid black;">This is another paragraph with a specified top margin in
+          percent</p>
+
+     <p style="margin-right: 15px; border: 1px solid black;">This is a paragraph with a specified right margin</p>
+     <p style="margin-right: 5%; border: 1px solid black;">This is another paragraph with a specified right margin
+          in percent</p>
+
+
+     <ul style="list-style-type: circle;">
+          <li>Maths</li>
+          <li>Social Science</li>
+          <li>Physics</li>
+     </ul>
+     <ul style="list-style-type: square;">
+          <li>Maths</li>
+          <li>Social Science</li>
+          <li>Physics</li>
+     </ul>
+     <ol style="list-style-type: decimal;">
+          <li>Maths</li>
+          <li>Social Science</li>
+          <li>Physics</li>
+     </ol>
+     <ol style="list-style-type: lower-alpha;">
+          <li>Maths</li>
+          <li>Social Science</li>
+          <li>Physics</li>
+     </ol>
+     <ol style="list-style-type: lower-roman;">
+          <li>Maths</li>
+          <li>Social Science</li>
+          <li>Physics</li>
+     </ol>
+
+     <ul style="list-style-type: circle; list-stlye-position: outside;">
+          <li>Maths</li>
+          <li>Social Science</li>
+          <li>Physics</li>
+     </ul>
+     <ul style="list-style-type: square; list-style-position: inside;">
+          <li>Maths</li>
+          <li>Social Science</li>
+          <li>Physics</li>
+     </ul>
+     <ol style="list-style-type: decimal; list-stlye-position: outside;">
+          <li>Maths</li>
+          <li>Social Science</li>
+          <li>Physics</li>
+     </ol>
+     <ol style="list-style-type: lower-alpha; list-style-position: inside;">
+          <li>Maths</li>
+          <li>Social Science</li>
+          <li>Physics</li>
+     </ol>
+
+     <ul style="list-style: inside square;">
+          <li>Maths</li>
+          <li>Social Science</li>
+          <li>Physics</li>
+     </ul>
+     <ol style="list-style: outside upper-alpha;">
+          <li>Maths</li>
+          <li>Social Science</li>
+          <li>Physics</li>
+     </ol>
+
+     <ul style="list-style: inside square; marker-offset: 10em;">
+          <li>Marker Maths</li>
+          <li>Marker Social Science</li>
+          <li>Marker Physics</li>
+     </ul>
+     <ol style="list-style: outside upper-alpha; marker-offset: 10cm;">
+          <li>Marker Maths</li>
+          <li>Marker Social Science</li>
+          <li>Marker Physics</li>
+     </ol>
+     <p style="padding-bottom: 15px; border: 1px solid black;">This is a paragraph with a specified bottom padding</p>
+     <p style="padding-bottom: 5%; border: 1px solid black;">This is another paragraph with a specified bottom
+          padding in percent</p>
+
+     <p style="padding-top: 15px; border: 1px solid black;">This is a paragraph with a specified top padding</p>
+     <p style="padding-top: 5%; border: 1px solid black;">This is another paragraph with a specified top padding in
+          percent</p>
+
+     <p style="padding-left: 15px; border: 1px solid black;">This is a paragraph with a specified left padding</p>
+     <p style="padding-left: 15%; border: 1px solid black;">This is another paragraph with a specified left padding
+          in percent</p>
+
+     <p style="padding-right: 15px; border: 1px solid black;">This is a paragraph with a specified right padding</p>
+     <p style="padding-right: 5%; border: 1px solid black;">This is another paragraph with a specified right padding
+          in percent</p>
+
+     <p style="padding: 15px; border: 1px solid black;">all four padding will be 15px</p>
+     <p style="padding: 10px 2%; border: 1px solid black;">top and bottom padding will be 10px, left and right
+          padding will be 2% of the total width of the document.</p>
+     <p style="padding: 10px 2% 10px; border: 1px solid black;">top padding will be 10px, left and right padding
+          will be 2% of the total width of the document, bottom padding will be 10px</p>
+     <p style="padding: 10px 2% 10px 10px; border: 1px solid black;">top padding will be 10px, right padding will be
+          2% of the total width of the document, bottom padding and top padding will be 10px</p>
+
+     <p>Move the mouse over the words to see the cursor change:</p>
+     <div style="cursor: auto">Auto</div>
+     <div style="cursor: crosshair">Crosshair</div>
+     <div style="cursor: default">Default</div>
+     <div style="cursor: pointer">Pointer</div>
+     <div style="cursor: move">Move</div>
+     <div style="cursor: e-resize">e-resize</div>
+     <div style="cursor: ne-resize">ne-resize</div>
+     <div style="cursor: nw-resize">nw-resize</div>
+     <div style="cursor: n-resize">n-resize</div>
+     <div style="cursor: se-resize">se-resize</div>
+     <div style="cursor: sw-resize">sw-resize</div>
+     <div style="cursor: s-resize">s-resize</div>
+     <div style="cursor: w-resize">w-resize</div>
+     <div style="cursor: text">text</div>
+     <div style="cursor: wait">wait</div>
+     <div style="cursor: help">help</div>
+
+     <p style="outline-width: thin; outline-style: solid;">This text is having thin outline.</p>
+     <br />
+     <p style="outline-width: thick; outline-style: solid;">This text is having thick outline.</p>
+     <br />
+     <p style="outline-width: 5px; outline-style: solid;">This text is having 5x outline.</p>
+
+     <p style="outline-width: thin; outline-style: solid;">This text is having thin solid outline.</p>
+     <br />
+     <p style="outline-width: thick; outline-style: dashed;">This text is having thick dashed outline.</p>
+     <br />
+     <p style="outline-width: 5px; outline-style: dotted;">This text is having 5x dotted outline.</p>
+
+     <p style="outline-width: thin; outline-style: solid; outline-color: red">This text is having thin solid red
+          outline.</p>
+     <br />
+     <p style="outline-width: thick; outline-style: dashed; outline-color: #009900">This text is having thick dashed
+          green outline.</p>
+     <br />
+     <p style="outline-width: 5px; outline-style: dotted; outline-color: rgb(13, 33, 232)">This text is having 5x
+          dotted blue outline.</p>
+
+     <p style="outline: thin solid red;">This text is having thin solid red outline.</p>
+     <br />
+     <p style="outline: thick dashed #009900;">This text is having thick dashed green outline.</p>
+     <br />
+     <p style="outline: 5px dotted rgb(13, 33, 232);">This text is having 5x dotted blue outline.</p>
+
+     <p style="width: 200px; height: 100px; border: 1px solid red; padding: 5px; margin: 10px;">This paragraph is
+          400pixels wide and 100 pixels high</p>
+
+     <p style="width: 400px; height: 200px; border: 1px solid red; padding: 5px; margin: 10px; line-height: 30px;">
+          This paragraph is 400pixels wide and 100 pixels high and here line height is 30pixels.This paragraph is 400
+          pixels wide and 100 pixels high and here line height is 30pixels.</p>
+
+     <p style="width: 400px; max-height: 10px; border: 1px solid red; padding: 5px; margin: 10px;">This paragraph is
+          400px wide and max height is 100px This paragraph is 400px wide and max height is 10px This paragraph is 400px
+          wide and max height is 10px This paragraph is 400px wide and max height is 10px</p>
+     <img alt="logo" src="/images/css.gif" width="95" height="84" />
+
+     <p style="width: 400px; min-height: 200px; border: 1px solid red; padding: 5px; margin: 10px;">This paragraph
+          is 400px wide and min height is 200px This paragraph is 400px wide and min height is 200px This paragraph is
+          400px wide and min height is 200px This paragraph is 400px wide and min height is 200px</p>
+     <img alt="logo" src="/images/css.gif" width="95" height="84" />
+
+     <p style="max-width: 100px; height: 200px; border: 1px solid red; padding: 5px; margin: 10px;">This paragraph
+          is 200px high and max width is 100px This paragraph is 200px high and max width is 100px This paragraph is
+          200px high and max width is 100px This paragraph is 200px high and max width is 100px This paragraph is 200px
+          high and max width is 100px</p>
+     <img alt="logo" src="/images/css.gif" width="95" height="84" />
+
+     <p style="min-width: 400px; height: 100px; border: 1px solid red; padding: 5px; margin: 10px;">This paragraph
+          is 100px high and min width is 400px This paragraph is 100px high and min width is 400px This paragraph is
+          100px high and min width is 400px This paragraph is 100px high and min width is 400px This paragraph is 100px
+          high and min width is 400px</p>
+     <img alt="logo" src="/images/css.gif" width="95" height="84" />
+
+     <p>Example of scroll value:</p>
+     <div class="scroll">I am going to keep lot of content here just to show you how scrollbars works if there is
+          an overflow in an element box. This provides your horizontal as well as vertical scrollbars.</div>
+     <br />
+     <p>Example of auto value:</p>
+     <div class="auto">I am going to keep lot of content here just to show you how scrollbars works if there is an
+          overflow in an element box. This provides your horizontal as well as vertical scrollbars.</div>
+
+     <p>This paragraph should be visible in normal way.</p>
+     <p style="visibility: hidden;">This paragraph should not be visible.</p>
+
+     <div style="position: relative; left: 80px; top: 20px; background-color: yellow;">This div has relative
+          positioning.</div>
+
+     <div style="position: absolute; left: 180px; top: 40px; background-color: yellow;">This div has absolute
+          positioning.</div>
+
+     <div style="position: fixed; left: 80px; top: 20px; background-color: yellow;">This div has fixed
+          positioning.</div>
+     <br />
+     <div
+          style="background-color: red; width: 300px; height: 100px; position: relative; top: 10px; left: 80px; z-index: 2">
+     </div>
+     <div
+          style="background-color: yellow; width: 300px; height: 100px; position: relative; top: -60px; left: 35px; z-index: 1;">
+     </div>
+     <div
+          style="background-color: green; width: 300px; height: 100px; position: relative; top: -220px; left: 120px; z-index: 3;">
+     </div>
+
+     <div>
+          <p>First paragraph in div. This paragraph will be indented</p>
+          <p>Second paragraph in div. This paragraph will not be indented</p>
+     </div>
+
+     <div>
+          <h3>Heading</h3>
+          <p>The first paragraph inside the div. This paragraph will not be effected.</p>
+     </div>
+
+     <p class="noline">This line would not have any underline because this belongs to noline class.</p>
+     <p>The first line of this paragraph will be underlined as defined in the CSS rule above. Rest of the lines in
+          this paragraph will remain normal. This example shows how to use :first-line pseduo element to give effect to
+          the first line of any HTML element.</p>
+
+     <p class="normal">First character of this paragraph will be normal and will have font size 10 px;</p>
+     <p>The first character of this paragraph will be 3em big and in red color as defined in the CSS rule above.
+          Rest of the characters in this paragraph will remain normal. This example shows how to use :first-letter
+          pseduo element to give effect to the first characters of any HTML element.</p>
+
+     <p>Image Example:</p>
+     <img src="/images/css.gif" alt="CSS Logo"
+          style="Filter: Alpha(Opacity = 100, FinishOpacity = 0, Style = 2, StartX = 20, StartY = 40, FinishX = 0, FinishY = 0)">
+     <p>Text Example:</p>
+     <div
+          style="width: 357; height: 50; font-size: 30pt; font-family: Arial Black; color: blue; Filter: Alpha(Opacity = 100, FinishOpacity = 0, Style = 1, StartX = 0, StartY = 0, FinishX = 580, FinishY = 0)">CSS
+          Tutorials</div>
+
+     <table style="table-layout: fixed; width: 600px;">
+          <tr height="30">
+               <td width="150">CSS table layout cell 1</td>
+               <td width="200">CSS table layout cell 2</td>
+               <td width="250">CSS table layout cell 3</td>
+          </tr>
+     </table>
 </body>
 </html>
