@@ -1,7 +1,6 @@
 /* Modernizr 2.7.1 (Custom Build) | MIT & BSD
  * Build: http://modernizr.com/download/#-csstransforms3d-csstransitions-touch-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load
  */
-;
 window.Modernizr = function (a, b, c) {
     function z(a) {
         j.cssText = a
